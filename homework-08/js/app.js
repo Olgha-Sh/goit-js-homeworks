@@ -91,3 +91,26 @@ function hadleArrowPress(e) {
   newAltPicture = galleryItems[findIndexGallery].description;
   setAttributePicture(newUrlPicture, newAltPicture);
 }
+
+// function handleArrowPress(e) {
+//   let findIndexGallery = galleryItems.findIndex(
+//     el => el.original === newUrlPicture,
+//   );
+//   if (e.code === 'ArrowRight') {
+//     if (findIndexGallery === galleryItems.length - 1) {
+//       return;
+//     } else {
+//       findIndexGallery += 1;
+//     }
+//   }
+//   if (e.code === 'ArrowLeft') {
+//     if (findIndexGallery === 0) {
+//       return;
+//     } else {
+//       findIndexGallery -= 1;
+//     }
+//   }
+//   newUrlPicture = galleryItems[findIndexGallery].original;
+//   newAltPicture = galleryItems[findIndexGallery].description;
+//   setAttributePicture(newUrlPicture, newAltPicture);
+// }
