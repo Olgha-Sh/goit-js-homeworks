@@ -1,5 +1,5 @@
 'use strict';
-import galleryItems from './gallery-items.js';
+import galleryItems from 'gallery-items.js';
 
 const galleryList = document.querySelector('.js-gallery');
 const modalWindow = document.querySelector('.js-lightbox');
