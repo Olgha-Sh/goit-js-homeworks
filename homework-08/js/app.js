@@ -56,7 +56,7 @@ function handleCloseModal() {
 }
 
 function handleLightboxOverlayClick(e) {
-  if (e.target !== e.current.Target) {
+  if (e.target !== e.currentTarget) {
     return;
   }
   handleCloseModal();
